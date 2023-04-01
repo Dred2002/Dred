@@ -1,0 +1,14 @@
+<html><body><audio id="myAudio" width="200" height="50" controls autoplay>
+    <source src="http://5.133.182.174:32335/;.mp3" type="audio/mp3">
+      <source src="http://5.133.182.174:32335/;.ogg" type="audio/ogg">
+    <source src ="http://5.133.182.174:32335/;.aac" type="audio/aac">
+    <source src="http://online.radiorecord.ru:8102/sd90_128" type="audio/mpeg">
+    
+</source></audio>
+    
+    <script type="text/javascript">
+    //<![CDATA[
+        var vid = document.getElementById("myAudio");
+    vid.volume = 0.3;
+    //]]>
+    </script></body></html>
